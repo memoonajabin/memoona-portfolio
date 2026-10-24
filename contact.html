@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Memoona Jabin</title>
+  <meta name="description" content="Contact Memoona Jabin by phone, WhatsApp or email." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a href="index.html" class="logo">M<span>.</span>J</a>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <a href="index.html" class="back">← Home</a>
+      <p class="eyebrow">Contact</p>
+      <h1>Have a project <em>in mind?</em></h1>
+      <p class="lead">Call, message or email me and I'll get back to you.</p>
+    </section>
+
+    <section class="section reveal">
+      <div class="contact-actions left">
+        <a class="btn btn-primary big" href="tel:+923256388671">Call 0325 6388671</a>
+        <a class="btn btn-ghost big" href="https://wa.me/923256388671" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn-ghost big" href="mailto:memonajabin786@gmail.com">memonajabin786@gmail.com</a>
+      </div>
+      <!-- LinkedIn and other social links can be added here once ready -->
+    </section>
+
+    <section class="section reveal">
+      <div class="section-label">Send a message</div>
+      <h2 class="section-title">Write to me</h2>
+
+      <form id="order-form" class="form" data-subject="Website inquiry">
+        <label>Your name
+          <input type="text" name="Name" required />
+        </label>
+
+        <label>Your email or phone
+          <input type="text" name="Contact" required />
+        </label>
+
+        <label>Which service do you need?
+          <select name="Service" required>
+            <option value="">Select one</option>
+            <option>Arabic Calligraphy</option>
+            <option>Tax Consulting &amp; Filing</option>
+            <option>Academic Writing</option>
+            <option>Graphic Design</option>
+            <option>Social Media Management</option>
+            <option>CV Creation</option>
+            <option>PowerPoint Design</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <label>Your message
+          <textarea name="Message" rows="4" required></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary">Send by email</button>
+        <p class="hint">This opens your email app with your message filled in.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Memoona Jabin. All rights reserved.</p>
+    <a href="index.html">Home</a>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
